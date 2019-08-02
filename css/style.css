@@ -1,0 +1,41 @@
+/* nav styling */
+.home{
+    background-image: url("../images/image2.jpeg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 800px;
+}
+.navbar {
+    margin-bottom: 0;
+    background-color:brown !important ;
+    z-index: 9999;
+    border: 0;
+    font-size: 12px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+  }
+  
+  .navbar li a, .navbar .navbar-brand {
+    color:black !important;
+  }
+  
+  .navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #f4511e !important;
+    background-color:red !important;
+  }
+  
+  .navbar-default .navbar-toggle {
+    
+    color: #fff !important;
+  }
+.jumbotro {
+    /* background-color: #f4511e !important; */
+    padding-top: 200px;
+    color:black;
+  }
+  .category{
+    margin-top: 200px;
+    height: 500px;
+    background-color:gray;
+  }
