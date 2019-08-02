@@ -17,7 +17,7 @@ Pizza.prototype.fullFilled = function() {
   $(document).ready(function() {
   
     $("#order").click(function() {
-        alert( "Handler for .submit() called." );
+       
   
     
     $("form#formid").submit(function(event) {
@@ -32,10 +32,23 @@ Pizza.prototype.fullFilled = function() {
       var newPizza = new Pizza(inputtedSize, inputtedCrust, inputtedTopping );
       console.log(newPizza);
         
-      $("ul#contacts").append("<li><span class='contact'>" +  newPizza.fullFilled() + "</span></li>");
-  
-  
-    });
+      // $("ul#pizaa").append("<li><span class='contact'>" +  newPizza.fullFilled() + "</span></li>");
+
+      // $("#show-contact").click(function() {
+        
+        $("#show-contact").show();
+
+        $(".pizza-size").text( newPizza.sizeName);
+        
+        $(".pizza-crust").text( newPizza.crustName);
+        $(".pizza-topping").text( newPizza.toppingName);
+   
+        // newContact.addresses.forEach(function(address) {
+        //   $("ul#addresses").append("<li>" + address.fullAddress() + "</li>");
+       
+      });
+    
+ 
 });
  resetFields();
   });

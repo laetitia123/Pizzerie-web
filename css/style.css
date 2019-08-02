@@ -61,5 +61,8 @@
     height: 500px;
    
   }
+  #show-contact{
+    display:none;
+  }
 
 
