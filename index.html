@@ -52,17 +52,41 @@
     </div>
     <div class="container category">
     <div class="row">
-      <div class="col-xs-3">
-        <input type="text" class="form-control" placeholder=".col-xs-2">
-      </div>
-      <div class="col-xs-3">
-        <input type="text" class="form-control" placeholder=".col-xs-3">
-      </div>
-      <div class="col-xs-3">
-        <input type="text" class="form-control" placeholder=".col-xs-4">
-      </div>
-    </div>
-  </div>
+        <form class="col-sm-6 offset-sm-3 text-center form2" id="formid">
+            <label>Select your pizza size:</label>
+            <select class="custom-select custom-select-md mb-3 flavour" id="size" required>
+                <option value="small"><small></small></option>
+                <option value="medium">Medium</option>
+                <option value="large">Large</option>
+              
+            </select>
+            
+            <label for="crust">Choose your favorite Crust:</label>
+            <select class="custom-select custom-select-md mb-3" id="crust" required>
+                <option value="flatbread">FlatBread Crust </option>
+                <option value="custom">Custom Crust </option>
+                <option value="thin">Thin Crust </option>
+                <option value="thick">Thick Crust </option>
+               
+            </select>
+            <label>Select Your favourite Toppings</label>
+            <select class="custom-select custom-select-md mb-3" id="topping" required>
+                <option value="tomato">Tomato </option>
+                <option value="onions">Onions</option>
+                <option value="mushroom">Mushroom</option>
+                <option value=""></option>
+                
+            </select>
+            <label for="number">Number of Pizza's</label>
+            <input type="number" class="form-control" placeholder="Number " min="1" required>
+            <a >
+                <button type="submit" class="btn btn-primary checkout" id="order">
+                    order
+                </button>
+            </a>
+
+
+        </form>
 
 </body>
 </html>

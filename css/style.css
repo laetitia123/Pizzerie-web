@@ -35,7 +35,31 @@
     color:black;
   }
   .category{
-    margin-top: 200px;
-    height: 500px;
-    background-color:gray;
+    padding-top: 70px;
+  
+
   }
+  input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid gainsboro;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color:black;
+  }
+  label{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:24px;
+    resize: vertical;
+    color:white;
+  }
+  .form2{
+    background-color: black;
+    opacity:0.9;
+    height: 500px;
+   
+  }
+
+
