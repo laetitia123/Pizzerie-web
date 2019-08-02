@@ -30,8 +30,9 @@ Pizza.prototype.fullFilled = function() {
       var inputtedTopping = $("select#topping").val();
       console.log(inputtedTopping);
       var newPizza = new Pizza(inputtedSize, inputtedCrust, inputtedTopping );
+      
       console.log(newPizza);
-        
+      
       // $("ul#pizaa").append("<li><span class='contact'>" +  newPizza.fullFilled() + "</span></li>");
 
       // $("#show-contact").click(function() {
@@ -42,13 +43,17 @@ Pizza.prototype.fullFilled = function() {
         
         $(".pizza-crust").text( newPizza.crustName);
         $(".pizza-topping").text( newPizza.toppingName);
+        if ($("select#size").val()=="Small" &&  ($("select#crust").val()=="FlatBread Crust")){
+          $("ul#pizaa").append("<li> your amount to pay is 456</li>");
+
+        }
    
         // newContact.addresses.forEach(function(address) {
         //   $("ul#addresses").append("<li>" + address.fullAddress() + "</li>");
-       
+      
       });
-    
- 
+      
+   
 });
  resetFields();
   });
