@@ -86,38 +86,68 @@ Pizza.prototype.fullFilled = function() {
         $("#delivery").click(function() {
           $("#gowith").show()
           $(".form3").show()
-          if ( $("select#size").val()=== "Small") {
+
             var price=1000;
             $(".price").text(price);
-            console.log(price);
-          }
-           else if ( $("select#size").val()=== "Medium") {
-            var price2=1500;
-            $(".price").text(price2);
-            console.log(price2);
-          }
-         else  if ( $("select#size").val()=== "Large") {
-          var price3=1800;
-          $(".price").text(price3);
-          console.log(price3);
-          }
-          else{}
+            
         });
       });    
  
       $(document).ready(function() {
+       
   
         $("#checkout").click(function() {
-          if ( $("select#size").val()=== "Small"){
-            var total1=parseInt(cost1)+parseInt(price);
-            alert(total1);
+         
+          if ( $("select#size").val()=== "Small") {
+           
+          var price=1000;
+           var cost1 = 1000;
+            console.log(cost1);
+            
+          } else if ($("select#size").val() === "Medium") {
+             var price=1000;
+           var cost1 = 2000;
+           
+          } else if ($("select#size").val()=== "Large") {
+             var price=1000;
+            var cost1= 3000;
           }
-         else if ( $("select#size").val()=== "medium"){
-            var total1=parseInt(cost1)+parseInt(price2);
-            alert(total1);
+          else{alert("waaa")}
+    
+    
+         
+          if ($("select#crust").val()=="FlatBread Crust" ){
+            var price=1000;
+            var cost2= 500;
+          } else if ($("select#crust").val() === "Custom Crust") {
+            var price=1000;
+            var cost2= 400;
+          } else if ($("select#crust").val() === "Thin Crust") {
+            var cost2= 800;
           }
+          else{alert("waaa")}
         
+          if ($("select#topping").val()=="Tomato" ){
+            var price=1000;
+            var cost3= 300;
+          } else if ($("select#topping").val() === "Onions") {
+            var price=1000;
+            var cost3= 500;
+          } else if ($("select#topping").val() === "Mushroom") {
+            var price=1000;
+            var cost3= 600;
+          }
+          else{alert("waaa")}
           
+          // var newPizza = new Pizza(inputtedSize, inputtedCrust, inputtedTopping );
+         
+       
+         
+    
+          //   var newPrice=parseInt(cost1)+parseInt(cost2)+parseInt(cost3);
+          var newTotal=parseInt(cost1)+parseInt(cost2)+parseInt(cost3)+parseInt(price);
+          console.log("sagjilsusio;u8q")
+       alert(newTotal);
         });
           
       });    
