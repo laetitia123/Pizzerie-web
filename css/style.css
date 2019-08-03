@@ -62,37 +62,76 @@
     height: 400px;
    
   }
-  #show-contact{
+  
+  .form3 {
+    margin-top:300px;
+    background-color: #2196F3;
+    height:600px;
+  display:none;
+    border: 1px solid lightgrey;
+    border-radius: 3px;
+  }
+  
+  input[type=text] {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  label {
+    margin-bottom: 10px;
+    display: block;
+  }
+  
+  .icon-container {
+    margin-bottom: 20px;
+    padding: 7px 0;
+    font-size: 24px;
+  }
+  
+  
+  
+  
+  span.price {
+    float: right;
+    color: grey;
+  }
+  
+  #show-chosen{
     display:none;
+    height: 200px;
   }
   #gowith{
     height: 50px;	
     overflow: hidden;
     position: relative;
-    background-color: #f4511e;
+    background-color:whitesmoke;
+    
   
     display:none;
   
   width: 500px;
     height:500px;
     font-size: 3em;
- color: limegreen;
+ color:black;
  position: absolute;
  width: 100%;
  height: 100%;
- margin: 0;
+ margin-left:10px;
  line-height: 50px;
  text-align: center;
- /* Starting position */
+
  -moz-transform:translateX(100%);
  -webkit-transform:translateX(100%);	
  transform:translateX(100%);
- /* Apply animation to this element */	
+ 	
  -moz-animation: example1 15s linear infinite;
  -webkit-animation: example1 15s linear infinite;
  animation: example1 15s linear infinite;
 }
-/* Move it (define the animation) */
+
 @-moz-keyframes example1 {
  0%   { -moz-transform: translateX(100%); }
  100% { -moz-transform: translateX(-100%); }
@@ -103,13 +142,13 @@
 }
 @keyframes example1 {
  0%   { 
- -moz-transform: translateX(100%); /* Firefox bug fix */
- -webkit-transform: translateX(100%); /* Firefox bug fix */
+ -moz-transform: translateX(100%); 
+ -webkit-transform: translateX(100%);
  transform: translateX(100%); 		
  }
  100% { 
- -moz-transform: translateX(-100%); /* Firefox bug fix */
- -webkit-transform: translateX(-100%); /* Firefox bug fix */
+ -moz-transform: translateX(-100%); 
+ -webkit-transform: translateX(-100%); 
  transform: translateX(-100%); 
  }
 }
