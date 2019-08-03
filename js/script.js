@@ -59,6 +59,7 @@ Pizza.prototype.fullFilled = function() {
         var cost3= 600;
       }
       else{alert("waaa")}
+      
       var newPizza = new Pizza(inputtedSize, inputtedCrust, inputtedTopping );
      
    
@@ -79,6 +80,28 @@ Pizza.prototype.fullFilled = function() {
      
       
       });
+      $(document).ready(function() {
+  
+        $("#delivery").click(function() {
+          $("#gowith").show()
+          if ( $("select#size").val()=== "Small") {
+            var price=1000;
+            $(".price").text(price);
+            console.log(price);
+          }
+           else if ( $("select#size").val()=== "Medium") {
+            var price=1500;
+            $(".price").text(price);
+            console.log(price);
+          }
+         else  if ( $("select#size").val()=== "Large") {
+          var price=1800;
+          $(".price").text(price);
+          console.log(price);
+          }
+          else{}
+        });
+      });    
  
    
 });
