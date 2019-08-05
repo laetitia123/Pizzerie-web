@@ -80,10 +80,12 @@
   .form3 {
     margin-top:300px;
     background-color: #2196F3;
-    height:600px;
-  display:none;
+    height:400px;
+    display:none;
+    width:500px;
     border: 1px solid lightgrey;
     border-radius: 3px;
+    
   }
   
   input[type=text] {
@@ -122,7 +124,6 @@
   #show-chosen{
     display:none;
     height: 200px;
-   
     margin-left:200px;
   }
   #gowith{

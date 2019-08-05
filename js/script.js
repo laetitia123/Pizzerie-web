@@ -88,11 +88,13 @@ Pizza.prototype.fullFilled = function() {
       $(document).ready(function() {
   
         $("#delivery").click(function() {
-          $("#gowith").show()
+          // $("#gowith").show()
+          // alert("The Price to deliver your pizza is "+ price);
+          $(".button").hide()
           $(".form3").show()
 
             var price=1000;
-            $(".price").text(price);
+           alert("The Price to deliver your pizza is " +price);
             
         });
       });    
