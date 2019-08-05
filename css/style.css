@@ -162,33 +162,43 @@
 
 /* about styling */
 .our{
-  height: 400px;
-  
+margin-bottom:22px;
+height:500px; 
 
 }
+
 .img-responsive{
   border-radius:50%;
-}
-/* about syling end */
 
+  padding-left:30px;
+  padding-right:30px;
+  padding-top:30px;
+}
+#heading{
+  text-align:center;
+  font-family: cambria;
+  margin-top:150px;
+  }
+  .tired{
+    background-color:#DCD2CC;
+    height:1500px;
+  }
+  .platee1,.platee2,.platee3,.platee4,.platee5,.platee6,.platee7,.platee8,.platee9{
+    background-color: white;
+    border-radius:25px;
+    height:400px;
+    margin-bottom:-20px;
+    
+  }
+  .btnn{
+    margin-left:80px;
+    margin-bottom: 10px;
+/* about syling end */
+  }
 footer{
   padding-top:50px;
   height:100px;
   background-color: black;
   color:white;
 }
-#heading{
-text-align:center;
-font-family: cambria;
-margin-top:150px;
-}
-.tired{
-  background-color:#DCD2CC;
-}
-.platee1{
-  background-color: white;
-  border-radius:25px;
-}
-.btnn{
-  margin-left:80px;
-}
+
