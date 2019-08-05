@@ -95,6 +95,9 @@ Pizza.prototype.fullFilled = function() {
 
             var price=1000;
            alert("The Price to deliver your pizza is " +price);
+           var person = prompt("Please enter your name","laetitia");
+           var location= prompt("Please enter your location", "kicukiro");
+           alert("Thank you for choosing us"+ person+"\n"+"your pizza will be delivered at "+ location)
             
         });
       });    
@@ -121,7 +124,6 @@ Pizza.prototype.fullFilled = function() {
           else{alert("waaa")}
     
     
-         
           if ($("select#crust").val()=="FlatBread Crust" ){
             var price=1000;
             var cost2= 500;
