@@ -169,3 +169,11 @@
 .img-responsive{
   border-radius:50%;
 }
+/* about syling end */
+
+footer{
+  padding-top:50px;
+  height:100px;
+  background-color: black;
+  color:white;
+}
