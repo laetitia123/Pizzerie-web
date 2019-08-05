@@ -1,4 +1,4 @@
-## online PIZZERIE web
+## PIZZERIE-WEB
 By Laetitia Uwizeyimana
 ## Description
 This project is about creating an online website to oder Pizza.

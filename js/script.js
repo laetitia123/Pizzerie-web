@@ -342,7 +342,7 @@ resetFields();
 function cycleBackgrounds() {
   var index = 0;
 
-  $imageEls = $('.container .slide'); // Get the images to be cycled.
+  $imageEls = $('.containere .slide'); // Get the images to be cycled.
 
   setInterval(function () {
       // Get the next index.  If at end, restart to the beginning.
@@ -353,7 +353,7 @@ function cycleBackgrounds() {
       
       // Hide the previous
       $imageEls.eq(index - 1).removeClass('show');
-  }, 2000);
+  }, 8000);
 };
 
 // Document Ready.
