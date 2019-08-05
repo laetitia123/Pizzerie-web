@@ -4,10 +4,10 @@ By Laetitia Uwizeyimana
 This project is about creating an online website to oder Pizza.
 
 ## BDD
- >user has to click on pizza he want to order.
->and he will be directed to the form where he/she has to fill the form according to the pizza he/she want.
-> The summary of what he/she choose must be showen.
-> Then he has to click the delivery button so that the pizza can be delivery.
+* user has to click on pizza he want to order.
+* and he will be directed to the form where he/she has to fill the form according to the pizza he/she want.
+* The summary of what he/she choose must be showen.
+* Then he has to click the delivery button so that the pizza can be delivery.
 
 ## Setup/Installation Requirements
  computer with Internet
