@@ -177,3 +177,18 @@ footer{
   background-color: black;
   color:white;
 }
+#heading{
+text-align:center;
+font-family: cambria;
+margin-top:150px;
+}
+.tired{
+  background-color:#DCD2CC;
+}
+.platee1{
+  background-color: white;
+  border-radius:25px;
+}
+.btnn{
+  margin-left:80px;
+}
