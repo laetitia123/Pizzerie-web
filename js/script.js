@@ -68,7 +68,7 @@ Pizza.prototype.fullFilled = function() {
    
      
 
-        var newPrice=parseInt(cost1)+parseInt(cost2)+parseInt(cost3);
+        var newPrice=(parseInt(cost1)+parseInt(cost2)+parseInt(cost3))*inputtedNumber;
        
         $("div#pizaa").append("<p> The price is :" + newPrice + "</span></p>");
 
@@ -79,7 +79,7 @@ Pizza.prototype.fullFilled = function() {
         $(".pizza-crust").text( newPizza.crustName);
         $(".pizza-topping").text( newPizza.toppingName);
         $(".pizza-number").text( newPizza.numberName);
-
+        console.log(num);
 
       
      

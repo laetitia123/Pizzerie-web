@@ -1,179 +1,201 @@
 /* nav styling */
 .home{
-    background-image: url("../images/image2.jpeg");
-    background-size:cover;
-    background-repeat: no-repeat;
-    height:900px;
+  background-image: url("../images/image2.jpeg");
+  background-size:cover;
+  background-repeat: no-repeat;
+  height:900px;
 }
 .navbar {
-    margin-bottom: 0;
-    background-color:brown !important ;
-    z-index: 9999;
-    border: 0;
-    font-size: 12px !important;
-    line-height: 1.42857143 !important;
-    letter-spacing: 4px;
-    border-radius: 0;
-  }
-  #myNavbar{
-    margin-top:50px;
-  }
+  margin-bottom: 0;
+  background-color:brown !important ;
+  z-index: 9999;
+  border: 0;
+  font-size: 12px !important;
+  line-height: 1.42857143 !important;
+  letter-spacing: 4px;
+  border-radius: 0;
+}
+#myNavbar{
+  margin-top:50px;
+}
+
+.navbar li a, .navbar .navbar-brand {
+  color:black !important;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+  color: #f4511e !important;
+  background-color:red !important;
+}
+
+.navbar-default .navbar-toggle {
   
-  .navbar li a, .navbar .navbar-brand {
-    color:black !important;
-  }
-  
-  .navbar-nav li a:hover, .navbar-nav li.active a {
-    color: #f4511e !important;
-    background-color:red !important;
-  }
-  
-  .navbar-default .navbar-toggle {
-    
-    color: #fff !important;
-  }
+  color: #fff !important;
+}
 .jumbotro {
-    /* background-color: #f4511e !important; */
-    padding-top:400px;
-    color:black;
-  }
+  /* background-color: #f4511e !important; */
+  padding-top:400px;
+  color:black;
+}
 
 
-  /* nav styling end */
+/* nav styling end */
 
 
 /* background image styling start */
-  .category{
-    padding-top: 70px;
+.category{
+  padding-top: 70px;
 
-  
 
-  }
+
+}
 /* background image styling end */
 
 
 /* order  styling start */
-  input[type=text], select {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid gainsboro;
-    border-radius: 4px;
-    box-sizing: border-box;
-    color:black;
-  }
-  label{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size:24px;
-    resize: vertical;
-    color:white;
-  }
-  .form2{
-    background-color: black;
-    opacity:0.9;
-    height: 400px;
-   margin-left:250px;
-  }
-
-  /* location form styling  start */
-  .form3 {
-    margin-top:300px;
-    background-color: #2196F3;
-    height:400px;
-    display:none;
-    width:500px;
-    border: 1px solid lightgrey;
-    border-radius: 3px;
-    
-  }
-  
-  input[type=text] {
-    width: 100%;
-    margin-bottom: 20px;
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 3px;
-  }
-  
-  label {
-    margin-bottom: 10px;
-    display: block;
-  }
-  
-  .icon-container {
-    margin-bottom: 20px;
-    padding: 7px 0;
-    font-size: 24px;
-  }
-  
-  
-  
-  
-  span.price {
-    float: right;
-    color: grey;
-  }
-  #order{
-    margin-top:20px;
-  }
-  
-  #show-chosen{
-    display:none;
-    height: 200px;
-    margin-left:200px;
-  }
-  
- /* margin-left:10px;
- line-height: 50px;
- text-align: center;
-
- -moz-transform:translateX(100%);
- -webkit-transform:translateX(100%);	
- transform:translateX(100%);
- 	
- -moz-animation: example1 15s linear infinite;
- -webkit-animation: example1 15s linear infinite;
- animation: example1 15s linear infinite;
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid gainsboro;
+  border-radius: 4px;
+  box-sizing: border-box;
+  color:black;
+}
+label{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size:24px;
+  resize: vertical;
+  color:white;
+}
+.form2{
+  background-color: black;
+  opacity:0.9;
+  height: 400px;
+ margin-left:250px;
 }
 
+/* location form styling  start */
+.form3 {
+  margin-top:300px;
+  background-color: #2196F3;
+  height:400px;
+  display:none;
+  width:500px;
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+  
+}
+
+input[type=text] {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+label {
+  margin-bottom: 10px;
+  display: block;
+}
+
+.icon-container {
+  margin-bottom: 20px;
+  padding: 7px 0;
+  font-size: 24px;
+}
+
+
+
+
+span.price {
+  float: right;
+  color: grey;
+}
+#order{
+  margin-top:20px;
+}
+
+#show-chosen{
+  display:none;
+  height: 200px;
+  margin-left:200px;
+}
+
+/* margin-left:10px;
+line-height: 50px;
+text-align: center;
+-moz-transform:translateX(100%);
+-webkit-transform:translateX(100%);	
+transform:translateX(100%);
+ 
+-moz-animation: example1 15s linear infinite;
+-webkit-animation: example1 15s linear infinite;
+animation: example1 15s linear infinite;
+}
 @-moz-keyframes example1 {
- 0%   { -moz-transform: translateX(100%); }
- 100% { -moz-transform: translateX(-100%); }
+0%   { -moz-transform: translateX(100%); }
+100% { -moz-transform: translateX(-100%); }
 }
 @-webkit-keyframes example1 {
- 0%   { -webkit-transform: translateX(100%); }
- 100% { -webkit-transform: translateX(-100%); }
+0%   { -webkit-transform: translateX(100%); }
+100% { -webkit-transform: translateX(-100%); }
 }
 @keyframes example1 {
- 0%   { 
- -moz-transform: translateX(100%); 
- -webkit-transform: translateX(100%);
- transform: translateX(100%); 		
- }
- 100% { 
- -moz-transform: translateX(-100%); 
- -webkit-transform: translateX(-100%); 
- transform: translateX(-100%); 
- }
+0%   { 
+-moz-transform: translateX(100%); 
+-webkit-transform: translateX(100%);
+transform: translateX(100%); 		
 }
-   */
+100% { 
+-moz-transform: translateX(-100%); 
+-webkit-transform: translateX(-100%); 
+transform: translateX(-100%); 
+}
+}
+ */
 
 
 /* about styling */
 .our{
-  height: 400px;
-  
+margin-bottom:22px;
+height:500px; 
 
 }
+
 .img-responsive{
-  border-radius:50%;
-}
-/* about syling end */
+border-radius:50%;
 
+padding-left:30px;
+padding-right:30px;
+padding-top:30px;
+}
+#heading{
+text-align:center;
+font-family: cambria;
+margin-top:150px;
+}
+.tired{
+  background-color:#DCD2CC;
+  height:1500px;
+}
+.platee1,.platee2,.platee3,.platee4,.platee5,.platee6,.platee7,.platee8,.platee9{
+  background-color: white;
+  border-radius:25px;
+  height:400px;
+  margin-bottom:-20px;
+  
+}
+.btnn{
+  margin-left:80px;
+  margin-bottom: 10px;
+/* about syling end */
+}
 footer{
-  padding-top:50px;
-  height:100px;
-  background-color: black;
-  color:white;
+padding-top:50px;
+height:100px;
+background-color: black;
+color:white;
 }
