@@ -1,13 +1,14 @@
 
   
-  function Pizza(size, crust, topping) {
+  function Pizza(size, crust, topping,number) {
     this.sizeName= size;
     this.crustName= crust;
     this.toppingName= topping;
+    this.numberName= number;
   }
  
 Pizza.prototype.fullFilled = function() {
-    return this.sizeName+ " " + this.crustName+ "" + this.toppingName;
+    return this.sizeName+ " " + this.crustName+ "" + this.toppingName+"" +this.numberName;
   }
  
     
@@ -60,8 +61,9 @@ Pizza.prototype.fullFilled = function() {
         var cost3= 600;
       }
       else{alert("waaa")}
+      var inputtedNumber = $("input#number").val();
       
-      var newPizza = new Pizza(inputtedSize, inputtedCrust, inputtedTopping );
+      var newPizza = new Pizza(inputtedSize, inputtedCrust, inputtedTopping,inputtedNumber);
      
    
      
@@ -76,6 +78,8 @@ Pizza.prototype.fullFilled = function() {
         
         $(".pizza-crust").text( newPizza.crustName);
         $(".pizza-topping").text( newPizza.toppingName);
+        $(".pizza-number").text( newPizza.numberName);
+
 
       
      

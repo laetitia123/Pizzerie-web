@@ -48,6 +48,7 @@
     </div>
     <div class="container category">
     <div class="row">
+      <h1 style="text-align:center;"> Order Your Favolite Pizza</h1>
         <form class="col-sm-6 offset-sm-3 text-center form2" id="formid">
             <label>Select your pizza size:</label>
             <select class="custom-select custom-select-md mb-3 flavour" id="size" required>
@@ -75,7 +76,7 @@
                 
             </select>
             <label for="number">Number of Pizza's</label>
-            <input type="number" class="form-control" placeholder="Number " min="1" required>
+            <input type="number" class="form-control" placeholder="Number " min="1"  id="number" required>
             <a >
                 <button type="submit" class="btn btn-primary checkout" id="order">
                     order
@@ -84,7 +85,7 @@
             
         </form>
       </div>
-        <h2>you have chosene:</h2>
+        <h2 style="text-align:center;">Here is your Choice:</h2>
             <ul id="pizaa">
   
             </ul>
@@ -96,6 +97,7 @@
                   <p>size:<span class="pizza-size"></span></p>
                   <p>Crust: <span class="pizza-crust"></span></p>
                   <p>Toppings: <span class="pizza-topping"></span></p>
+                  <p>Pizza's Number: <span class="pizza-number"></span></p>
                   
                 </div>
                 <a >

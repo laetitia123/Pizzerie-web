@@ -37,12 +37,22 @@
     padding-top:400px;
     color:black;
   }
+
+
+  /* nav styling end */
+
+
+/* background image styling start */
   .category{
     padding-top: 70px;
 
   
 
   }
+/* background image styling end */
+
+
+/* order  styling start */
   input[type=text], select {
     width: 100%;
     padding: 12px 20px;
@@ -63,7 +73,7 @@
     background-color: black;
     opacity:0.9;
     height: 400px;
-   
+   margin-left:250px;
   }
   
   .form3 {
@@ -105,6 +115,7 @@
   #show-chosen{
     display:none;
     height: 200px;
+    text-align:center;
   }
   #gowith{
     height: 50px;	
