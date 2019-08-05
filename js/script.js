@@ -70,7 +70,7 @@ Pizza.prototype.fullFilled = function() {
 
         var newPrice=parseInt(cost1)+parseInt(cost2)+parseInt(cost3);
        
-        $("ul#pizaa").append("<li><span class='contact'>" + newPrice + "</span></li>");
+        $("div#pizaa").append("<p> The price is :" + newPrice + "</span></p>");
 
         $("#show-chosen").show();
 

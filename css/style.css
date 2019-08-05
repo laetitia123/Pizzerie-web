@@ -111,11 +111,18 @@
     float: right;
     color: grey;
   }
+  #order{
+    margin-top:20px;
+  }
+  #pizaa{
+    /* margin-left:-200px; */
+  }
   
   #show-chosen{
     display:none;
     height: 200px;
-    text-align:center;
+   
+    margin-left:200px;
   }
   #gowith{
     height: 50px;	
