@@ -1,6 +1,6 @@
-online PIZZERIE web
+## online PIZZERIE web
 By Laetitia Uwizeyimana
-Description
+## Description
 This project is about creating an online website to oder Pizza.
 
 ## BDD
@@ -18,7 +18,8 @@ This project is about creating an online website to oder Pizza.
 I am still working on how to cancel the delivery.
 
 ## Technologies Used
-*jQuery
+
+* jQuery
 * Bootstrap
 * Javascript
 * html
